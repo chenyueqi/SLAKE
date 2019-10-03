@@ -1,0 +1,5 @@
+prefix:net/ipv4/
+llvm_link_target:ipmr.ll
+module_name:CONFIG_IP_MROUTE
+build_target:ipmr.o
+dep_module:CONFIG_INET CONFIG_NET alldefconfig 

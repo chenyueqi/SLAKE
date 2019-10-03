@@ -1,0 +1,5 @@
+prefix:fs/proc/
+llvm_link_target:proc-fs-mod.ll
+module_name:CONFIG_PROC_FS
+build_target:../proc_namespace.o inode.o root.o base.o generic.o array.o fd.o cmdline.o consoles.o cpuinfo.o devices.o interrupts.o loadavg.o meminfo.o stat.o uptime.o util.o version.o softirqs.o namespaces.o self.o thread_self.o
+dep_module:allnoconfig 

@@ -1,0 +1,5 @@
+prefix:fs/
+llvm_link_target:eventpoll.ll
+module_name:CONFIG_EPOLL
+build_target:eventpoll.o
+dep_module:allnoconfig CONFIG_SND_TIMER 

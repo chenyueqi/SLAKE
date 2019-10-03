@@ -1,0 +1,5 @@
+prefix:sound/core/
+llvm_link_target:timer.ll
+module_name:CONFIG_SND_TIMER
+build_target:timer.o
+dep_module:allnoconfig CONFIG_SOUND CONFIG_SND

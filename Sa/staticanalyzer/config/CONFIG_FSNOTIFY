@@ -1,0 +1,5 @@
+prefix:fs/notify/
+llvm_link_target:fsnotify-mod.ll
+module_name:CONFIG_FSNOTIFY
+build_target:fsnotify.o notification.o group.o mark.o fdinfo.o
+dep_module:allnoconfig CONFIG_AUDIT_WATCH CONFIG_AUDITSYSCALL

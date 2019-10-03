@@ -1,0 +1,5 @@
+prefix:kernel/cgroup/
+llvm_link_target:cgroup-mod.o
+module_name:CONFIG_CGROUPS
+build_target:cgroup.o stat.o namespace.o cgroup-v1.o
+dep_module:alldefconfig 

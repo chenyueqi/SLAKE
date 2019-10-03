@@ -1,0 +1,5 @@
+prefix:security/keys/
+llvm_link_target:keys-mod.ll
+module_name:CONFIG_KEYS
+build_target:gc.o key.o keyring.o keyctl.o permission.o process_keys.o request_key.o request_key_auth.o user_defined.o
+dep_module:allnoconfig 

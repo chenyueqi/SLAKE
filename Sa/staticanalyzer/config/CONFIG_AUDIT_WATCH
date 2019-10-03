@@ -1,0 +1,5 @@
+prefix:kernel/
+llvm_link_target:audit-watch-mod.ll
+module_name:CONFIG_AUDIT_WATCH
+build_target:audit_watch.o audit_fsnotify.o
+dep_module:allnoconfig

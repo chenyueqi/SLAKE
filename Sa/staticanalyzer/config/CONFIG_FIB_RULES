@@ -1,0 +1,5 @@
+prefix:net/core/
+llvm_link_target:fib_rules.ll
+module_name:CONFIG_FIB_RULES
+build_target:fib_rules.o
+dep_module:CONFIG_NET allnoconfig 

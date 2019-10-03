@@ -1,0 +1,5 @@
+prefix:security/selinux/
+llvm_link_target:selinux-mod.ll
+module_name:CONFIG_SECURITY_SELINUX
+build_target:avc.o hooks.o selinuxfs.o netlink.o nlmsgtab.o netif.o netnode.o netport.o ibpkey.o exports.o
+dep_module:allnoconfig CONFIG_MULTIUSER CONFIG_SECURITY CONFIG_SECURITY_NETWORK CONFIG_AUDIT CONFIG_NET CONFIG_INET

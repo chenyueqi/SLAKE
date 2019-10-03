@@ -1,0 +1,5 @@
+prefix:ipc/
+llvm_link_target:sysvipc-mod.ll
+module_name:CONFIG_SYSVIPC
+build_target:util.o msgutil.o msg.o sem.o shm.o syscall.o
+dep_module:alldefconfig 

@@ -1,0 +1,5 @@
+prefix:sound/core/seq/
+llvm_link_target:snd-sequencer-mod.ll
+module_name:CONFIG_SND_SEQUENCER
+build_target:seq.o seq_lock.o seq_clientmgr.o seq_memory.o seq_queue.o seq_fifo.o seq_prioq.o seq_timer.o seq_system.o seq_ports.o
+dep_module:allnoconfig CONFIG_SND CONFIG_SOUND

@@ -1,0 +1,5 @@
+prefix:sound/
+llvm_link_target:sound_core.ll
+module_name:CONFIG_SOUND
+build_target:sound_core.o
+dep_module:allnoconfig

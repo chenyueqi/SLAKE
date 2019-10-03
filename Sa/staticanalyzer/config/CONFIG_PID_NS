@@ -1,0 +1,5 @@
+prefix:kernel/
+llvm_link_target:pid_namespace.ll
+module_name:CONFIG_PID_NS
+build_target:pid_namespace.o
+dep_module:allnoconfig CONFIG_NAMESPACES

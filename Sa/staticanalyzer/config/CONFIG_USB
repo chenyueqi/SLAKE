@@ -1,0 +1,5 @@
+prefix:drivers/usb/core/
+llvm_link_target:usb-mod.ll
+module_name:CONFIG_USB
+build_target:usb.o hub.o hcd.o urb.o message.o driver.o config.o file.o buffer.o sysfs.o endpoint.o devio.o notify.o generic.o quirks.o devices.o port.o
+dep_module:allnoconfig

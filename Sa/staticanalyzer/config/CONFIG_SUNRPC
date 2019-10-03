@@ -1,0 +1,5 @@
+prefix:net/sunrpc/
+llvm_link_target:sunrpc-mod.ll
+module_name:CONFIG_SUNRPC
+build_target:clnt.o xprt.o socklib.o xprtsock.o sched.o auth.o auth_null.o auth_unix.o auth_generic.o svc.o svcsock.o svcauth.o svcauth_unix.o addr.o rpcb_clnt.o timer.o xdr.o sunrpc_syms.o cache.o rpc_pipe.o svc_xprt.o xprtmultipath.o
+dep_module:allnoconfig 

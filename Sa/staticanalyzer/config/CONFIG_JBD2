@@ -1,0 +1,5 @@
+prefix:fs/jbd2/
+llvm_link_target:jbd2-mod.ll
+module_name:CONFIG_JBD2
+build_target:transaction.o commit.o recovery.o checkpoint.o revoke.o journal.o
+dep_module:allnoconfig 

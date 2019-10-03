@@ -1,0 +1,5 @@
+prefix:fs/
+llvm_link_target:locks.ll
+module_name:CONFIG_FILE_LOCKING
+build_target:locks.o
+dep_module:allnoconfig 

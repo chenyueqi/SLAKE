@@ -1,0 +1,5 @@
+prefix:fs/ext2/
+llvm_link_target:ext2.ll
+module_name:CONFIG_EXT2_FS
+build_target:ext2.o
+dep_module:allnoconfig

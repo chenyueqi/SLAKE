@@ -1,0 +1,5 @@
+prefix:fs/
+llvm_link_target:aio.ll
+module_name:CONFIG_AIO
+build_target:aio.o
+dep_module:allnoconfig 

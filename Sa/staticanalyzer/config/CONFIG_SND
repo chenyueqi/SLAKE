@@ -1,0 +1,5 @@
+prefix:sound/
+llvm_link_target:snd-mod.ll
+module_name:CONFIG_SND
+build_target:core/sound.o core/init.o core/memory.o core/control.o core/misc.o core/device.o core/info.o
+dep_module:allnoconfig

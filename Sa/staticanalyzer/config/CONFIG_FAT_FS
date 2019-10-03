@@ -1,0 +1,5 @@
+prefix:fs/fat/
+llvm_link_target:fat-mod.ll
+module_name:CONFIG_FAT_FS
+build_target:cache.o dir.o fatent.o file.o inode.o misc.o nfs.o
+dep_module:allnoconfig 

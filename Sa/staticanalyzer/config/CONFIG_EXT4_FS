@@ -1,0 +1,5 @@
+prefix:fs/ext4/
+llvm_link_target:ext4-mod.ll
+module_name:CONFIG_EXT4_FS
+build_target:balloc.o bitmap.o block_validity.o dir.o ext4_jbd2.o extents.o extents_status.o file.o fsmap.o fsync.o hash.o ialloc.o indirect.o inline.o inode.o ioctl.o mballoc.o migrate.o mmp.o move_extent.o namei.o page-io.o readpage.o resize.o super.o symlink.o sysfs.o xattr.o xattr_trusted.o xattr_user.o
+dep_module:allnoconfig 

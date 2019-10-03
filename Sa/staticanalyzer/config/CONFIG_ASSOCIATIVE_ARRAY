@@ -1,0 +1,5 @@
+prefix:lib/
+llvm_link_target:assoc_array.ll
+module_name:CONFIG_ASSOCIATIVE_ARRAY
+build_target:assoc_array.o
+dep_module:CONFIG_KEYS allnoconfig 

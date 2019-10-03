@@ -1,0 +1,5 @@
+prefix:./
+llvm_link_target:netlabel-mod.ll
+module_name:CONFIG_NETLABEL
+build_target:security/selinux/netlabel.o
+dep_module:allnoconfig CONFIG_NET CONFIG_INET CONFIG_SECURITY CONFIG_MULTIUSER

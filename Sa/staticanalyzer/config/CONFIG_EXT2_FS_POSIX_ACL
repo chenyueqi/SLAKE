@@ -1,0 +1,5 @@
+prefix:fs/ext2/
+llvm_link_target:acl.ll
+module_name:CONFIG_EXT2_FS_POSIX_ACL
+build_target:acl.o
+dep_module:allnoconfig

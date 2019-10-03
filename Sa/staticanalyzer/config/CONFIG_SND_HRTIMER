@@ -1,0 +1,5 @@
+prefix:sound/core/
+llvm_link_target:snd-hrtimer.ll
+module_name:CONFIG_SND_HRTIMER
+build_target:hrtimer.o
+dep_module:allnoconfig CONFIG_SND CONFIG_SOUND CONFIG_HIGH_RES_TIMERS

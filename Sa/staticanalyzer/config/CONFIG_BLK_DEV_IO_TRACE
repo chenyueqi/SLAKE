@@ -1,0 +1,5 @@
+prefix:kernel/trace/
+llvm_link_target:blktrace.ll
+module_name:CONFIG_BLK_DEV_IO_TRACE
+build_target:blktrace.o
+dep_module:

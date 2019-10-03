@@ -1,0 +1,5 @@
+prefix:fs/
+llvm_link_target:timerfd.ll
+module_name:CONFIG_TIMERFD
+build_target:timerfd.o
+dep_module:allnoconfig 

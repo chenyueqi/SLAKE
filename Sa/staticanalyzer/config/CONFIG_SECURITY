@@ -1,0 +1,5 @@
+prefix:security/
+llvm_link_target:security.ll
+module_name:CONFIG_SECURITY
+build_target:security.o
+dep_module:allnoconfig
